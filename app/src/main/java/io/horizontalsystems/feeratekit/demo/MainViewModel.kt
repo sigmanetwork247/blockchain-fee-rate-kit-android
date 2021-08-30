@@ -21,8 +21,8 @@ class MainViewModel : ViewModel() {
     private val feeRateKit: FeeRateKit = FeeRateKit(
         FeeProviderConfig(
             btcCoreRpcUrl = "https://btc.horizontalsystems.xyz/rpc",
-            ethEvmUrl = FeeProviderConfig.infuraUrl("2a1306f1d12f4c109a4d4fb9be46b02e"),
-            ethEvmAuth = "fc479a9290b64a84a15fa6544a130218",
+            ethEvmUrl = FeeProviderConfig.infuraUrl("9ac35cca27654dc4bdbfb5a57512eeca"),
+            ethEvmAuth = "b9657a2ef9fa48e5b3da7df6c6f8f38d",
             bscEvmUrl = FeeProviderConfig.defaultBscEvmUrl()
         )
     )
